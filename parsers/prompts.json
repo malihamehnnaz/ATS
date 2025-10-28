@@ -1,0 +1,3 @@
+{
+  "jd_parser": "You are a job description parser. Extract the following fields from the JD text and return valid JSON only:\n\n- job_title (string)\n- department (string)\n- employment_type (string)\n- experience_required (string)\n- required_skills (list of strings)\n- responsibilities (list of strings)\n- education (string)\n- certifications (list of strings)\n- tools_and_technologies (list of strings)\n- soft_skills (list of strings)\n- location (string)\n- keywords (list of strings)\n\nInstructions:\n- Use double quotes for keys and string values.\n- Represent lists as JSON arrays.\n- Do NOT include explanations or extra text.\n- If a field is not found, return an empty string or empty list.\n\nJob Description:\n\"\"\"{jd_text}\"\"\""
+}
